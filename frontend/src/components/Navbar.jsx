@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 const Navbar = () => {
   return (
     <nav className="flex justify-between items-center px-6 py-3 shadow-md bg-white">
@@ -33,3 +35,5 @@ const Navbar = () => {
     </nav>
   );
 };
+
+export default Navbar;
